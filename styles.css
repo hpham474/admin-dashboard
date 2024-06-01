@@ -74,7 +74,15 @@
 }
 
 .header {
+    padding: 1rem;
+
     background-color: #ffffff;
+
+    position: relative;
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    
+    box-shadow: 10px 5px 5px lightgrey;
 }
 
 .dashboard {
