@@ -37,7 +37,8 @@
     font-size: 2rem;
 }
 
-.sidebar-1 {
+.sidebar-1,
+.sidebar-2 {
     display: flex;
     flex-direction: column;
 
