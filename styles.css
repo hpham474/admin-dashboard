@@ -11,15 +11,32 @@
 }
 
 .sidebar {
+    padding: 1rem;
+
     background-color: #1992d4;
 
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr;
 }
 
-.header {
-    background-color: #ffffff;
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }
 
-.dashboard {
-    background-color: #e2e8f0;
+.svg-logo {
+    fill: white;
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo h1 {
+    font-size: 2rem;
+}
+
+.sidebar-actions {
+    background-color: yellow
 }
