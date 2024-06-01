@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url('font/roboto-black-webfont.woff2') format('woff2'),
+         url('font/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
+    font-family: "robotoblack", sans-serif;
 }
 
 .container {
@@ -35,6 +44,7 @@
 
 .logo h1 {
     font-size: 2rem;
+    color: white;
 }
 
 .sidebar-1,
@@ -54,6 +64,7 @@
 
 .sidebar-option h2 {
     font-size: 1.5rem;
+    color: white;
 }
 
 .icon {
