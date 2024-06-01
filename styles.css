@@ -96,7 +96,7 @@
     fill: #808080;
 }
 
-.search button {
+.small-button {
     height: 1.8rem;
     width: 1.8rem;
     padding: .1rem;
@@ -106,19 +106,19 @@
     border-radius: 1rem;
 }
 
-.search button:hover {
+.small-button:hover {
     background-color: #676767;
 }
 
-.search button:hover .button-icon {
+.small-button:hover .button-icon {
     fill: #b3b3b3;
 }
 
-.search button:active {
+.small-button:active {
     background-color: #cdcdcd;
 }
 
-.search button:active .button-icon {
+.small-button:active .button-icon {
     fill: #808080;
 }
 
