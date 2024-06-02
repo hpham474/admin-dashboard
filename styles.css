@@ -75,13 +75,13 @@
 }
 
 .header {
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
 
     background-color: #ffffff;
 
     position: relative;
     display: grid;
-    grid-template: 1fr 1fr / 2fr 1fr;
+    grid-template: 1fr 2fr / 2fr 1fr;
     
     box-shadow: 10px 5px 5px lightgrey;
 }
@@ -146,6 +146,10 @@ input[type="text"]:focus {
     gap: 2rem;
 }
 
+.profile h2 {
+    font-size: 1.5rem;
+}
+
 .greeting {
     display: flex;
     flex-direction: row;
@@ -156,6 +160,15 @@ input[type="text"]:focus {
 .greeting-text {
     display: grid;
     grid-template-rows: 1fr 1fr;
+}
+
+.greeting-text p {
+    align-self: flex-end;
+    font-size: .75rem;
+}
+
+.greeting-text h2 {
+    font-size: 2rem;
 }
 
 .header-buttons {
