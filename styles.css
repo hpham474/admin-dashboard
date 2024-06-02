@@ -256,7 +256,7 @@ input[type="text"]:focus {
 
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .announcements {
@@ -280,11 +280,52 @@ input[type="text"]:focus {
     font-size: .75rem;
 }
 
+.trending {
+    display: grid;
+    grid-template-rows: 1.5rem 1fr;
+    gap: 1.5rem;
+}
+
+.trending h2 {
+    font-size: 1.5rem;
+}
+
 .profiles {
+    padding: 1rem;
+
     background-color: white;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+    gap: 1rem;
 
     border-radius: .5rem;
+}
+
+.full-handle {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    align-items: center;
+}
+
+.handle {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: .25rem;
+}
+
+.handle h5 {
+    align-self: flex-end;
+
+    font-size: 1rem;
+}
+
+.handle p {
+    align-self: flex-start;
+
+    font-size: 1rem;
+    color: gray;
 }
