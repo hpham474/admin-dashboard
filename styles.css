@@ -157,6 +157,14 @@ input[type="text"]:focus {
     grid-template-rows: 1fr 1fr;
 }
 
+.header-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
 .dashboard {
     background-color: #e2e8f0;
 }
