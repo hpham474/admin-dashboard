@@ -9,6 +9,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: "robotoblack", sans-serif;
 }
 
@@ -163,6 +164,19 @@ input[type="text"]:focus {
     align-items: center;
     justify-content: flex-end;
     gap: 2rem;
+}
+
+.header-button {
+    height: 3rem;
+    width: 6rem;
+
+    background-color: #1992d4;
+
+    border: none;
+    border-radius: 3rem;
+
+    color: white;
+    font-size: 1rem;
 }
 
 .dashboard {
