@@ -89,7 +89,8 @@
     background-color: #ffffff;
 
     display: grid;
-    grid-template: 1fr 2fr / 2fr 1fr;
+    grid-template: 5rem 1fr / 2fr 1fr;
+    align-items: center;
     
     box-shadow: 10px 5px 5px lightgrey;
 }
@@ -98,7 +99,6 @@
     display: grid;
     grid-template-columns: auto 1fr;
     grid-gap: 1rem;
-    align-items: center;
 }
 
 .button-icon {
@@ -142,15 +142,8 @@ input[type="text"]:focus {
 .profile {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-}
-
-.profile-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     gap: 2rem;
 }
 
