@@ -250,3 +250,26 @@ input[type="text"]:focus {
     align-items: flex-end;
     gap: 2rem;
 }
+
+.announcements-trending {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    border-radius: .5rem;
+}
+
+.profiles {
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    border-radius: .5rem;
+}
