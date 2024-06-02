@@ -172,16 +172,16 @@ input[type="text"]:focus {
 }
 
 .header-buttons {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-content: flex-end;
+    justify-items: center;
     gap: 2rem;
 }
 
 .header-button {
     height: 3rem;
-    width: 6rem;
+    width: 7rem;
 
     background-color: #1992d4;
 
