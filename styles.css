@@ -130,6 +130,21 @@ input[type="text"]:focus {
     outline: none;
 }
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
 .dashboard {
     background-color: #e2e8f0;
 }
