@@ -145,6 +145,17 @@ input[type="text"]:focus {
     gap: 2rem;
 }
 
+.greeting {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.greeting-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
 .dashboard {
     background-color: #e2e8f0;
 }
