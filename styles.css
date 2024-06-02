@@ -252,17 +252,32 @@ input[type="text"]:focus {
 }
 
 .announcements-trending {
+    padding: 1rem 0;
+
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 1rem;
 }
 
 .announcements {
+    padding: 2rem;
+
     background-color: white;
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1rem 1fr 1rem 1fr;
+    align-items: center;
 
     border-radius: .5rem;
+}
+
+.announcements h4 {
+    font-size: 1rem;
+}
+
+.announcements p {
+    color: gray;
+    font-size: .75rem;
 }
 
 .profiles {
