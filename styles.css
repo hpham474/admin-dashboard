@@ -21,8 +21,6 @@
 }
 
 .sidebar {
-    padding: 1rem;
-
     background-color: #1992d4;
 
     grid-row: 1 / 3;
@@ -31,6 +29,8 @@
 }
 
 .logo-container {
+    padding: 1rem;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,13 +48,23 @@
     color: white;
 }
 
-.sidebar-1,
-.sidebar-2 {
-    display: flex;
-    flex-direction: column;
+.sidebar-button {
+    padding: 1rem;
 
-    gap: 2rem;
+    background-color: #1992d4;
+    border: none;
 }
+
+.sidebar-button:hover,
+.header-button:hover {
+    background-color: #147eb8;
+}
+
+.sidebar-button:active,
+.header-button:active {
+    background-color: #106b9d;
+}
+
 
 .sidebar-option {
     display: flex;
